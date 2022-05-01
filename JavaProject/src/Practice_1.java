@@ -13,7 +13,7 @@ public class Practice_1 {
         float a = 7f/4f * 9f/2f;
         System.out.println(a);
 
-        // Encrypt a Grade
+        // Encrypt a Grade to a new value
         int grade;
         Scanner input = new Scanner(System.in);
         System.out.println("Please Enter the grade of the student: ");
