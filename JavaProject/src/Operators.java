@@ -7,5 +7,7 @@ public class Operators {
         System.out.println(a>b && a<b);//logical Operator --> && ||
         System.out.println(500 & 600); // It is bitwise AND
         System.out.println(4.4 % 2.1);
+        char x = 66;
+        System.out.println(x);
     }
 }
