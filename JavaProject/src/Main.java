@@ -1,9 +1,8 @@
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
-
-        System.out.print("Hello World");
-        int num1 = 1,num2 = 2 ,num3 = 3;
-        int sum = num1 + num2 + num3;
-        System.out.print(sum);
+        Random randValue = new Random();
+        System.out.println(randValue.nextInt(4));
     }
 }
